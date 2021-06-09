@@ -1,4 +1,4 @@
-package simplefactory;
+package simplefactory.example;
 
 public interface Door {
     float getWidth();

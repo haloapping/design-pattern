@@ -1,4 +1,4 @@
-package simplefactory;
+package simplefactory.test;
 
 public class WoodenDoor implements Door {
     protected float width;

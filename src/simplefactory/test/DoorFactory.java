@@ -1,4 +1,4 @@
-package simplefactory;
+package simplefactory.test;
 
 public class DoorFactory {
     public static Door makeDoor(float width, float height) {
