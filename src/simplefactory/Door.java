@@ -1,6 +1,6 @@
 package simplefactory;
 
 public interface Door {
-    public float getWidth();
-    public float getHeight();
+    float getWidth();
+    float getHeight();
 }
