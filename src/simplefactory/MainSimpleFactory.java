@@ -2,9 +2,14 @@ package simplefactory;
 
 public class MainSimpleFactory {
     public static void main(String[] args) {
-        Door door = DoorFactory.makeDoor(100, 100);
+        Door firstDoor = DoorFactory.makeDoor(100, 100);
+        System.out.println("First Door: ");
+        System.out.println("Width  : " + firstDoor.getWidth());
+        System.out.println("Height : " + firstDoor.getHeight());
 
-        System.out.println(door.getWidth());
-        System.out.println(door.getHeight());
+        Door secondDoor = DoorFactory.makeDoor(100.34f, 100.23f);
+        System.out.println("\n" + "Second Door: ");
+        System.out.println("Width  : " + secondDoor.getWidth());
+        System.out.println("Height : " + secondDoor.getHeight());
     }
 }
